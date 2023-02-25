@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register File</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center>
+        <h1>Register Form</h1>
+        <hr style="width:30%">
+
+    <form method="post" name="frm" action="welcome.html">
+
+        <label>Email*</label>
+        <input type="Text" name="Email" placeholder="Email*" required>
+        <br><br>
+
+        <label>Password*</label>
+        <input type="Password" name="pass" placeholder="Password" required>
+        <br><br>
+
+        <label>Re-Password*</label>
+        <input type="password" name="cpass" placeholder="confirm password" required>
+        <br><br>
+
+        <label>Upload Photo*</label>
+        <input type="file" name="photo" multiple required>
+        <br><br>
+
+        <label>Gender*</label>
+        Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="female">
+        <br><br>
+
+        <label>Avaibility of Freelancing*</label>
+        Availabel<input type="radio" name="freelance" value="availabel">
+        Not Available<input type="radio" name="freelance" value="not available">
+        <br><br>
+
+        <label>Select Language</label>
+        Php<input type="checkbox" name="lang" placeholder="php">
+        React JS<input type="checkbox" name="lang" placeholder="React Js">
+        Angular JS<input type="checkbox" name="lang" placeholder="Angular JS">
+        <br><br>
+
+        <label>Phone*</label>
+        <input type="text" name="phone" placeholder="Phone Number*">
+        <br><br>
+
+        <label>Address*</label>
+        <textarea name="address" placeholder="Enter address *" rows="8" cols="35"></textarea>
+        <br><br>
+
+        <label>Select State*</label>
+        <Select name="state" palceholder="state">
+            <option value="">-select state-</option>
+            <option value="1">Gujarat</option>
+            <option value="2">Maharashtra</option>
+            <option value="3">Rajasthan</option>
+            <option value="4">South</option>
+        </select>
+        <br><br>
+
+        <label>Select City*</label>
+        <select name="city" palceholder="city">
+            <option value="">-Select City-</option>
+            <option value="1">Rajkot</option>
+            <option value="2">Jaiput</option>
+            <option value="3">Mumbai</option>
+            <option value="4">Bhavnagar</option>
+        </select>
+        <br><br>
+
+        <label>select multiple locations *</label>
+        <select name="loc" placeholder="loc *" multiple min="0" max="5">
+            <option value="">-select Locations-</option>
+            <option value="1">Ghogha circle bhavnagar</option>
+            <option value="2">Sorthiyavadi rajkot</option>
+            <option value="3">Swaminarayan rajkot</option>
+            <option value="4">pink city jaipur</option>
+            <option value="5">khandla Mumbai</option>
+        </select>
+       <br><br>
+
+       <input type="Submit" name="login" value="register">
+
+       <input type="reset" name="reset" value="reset">
+       <br><br>
+       Already Have an Account ?? &nbsp;<a href="input.html">&nbsp; Login Here ??</a>
+    </form>
+ </center>
+</body>
+</html>
